@@ -12,3 +12,8 @@ Should see this.
 
 `GET /query?db=statsd&epoch=s&q=SELECT+last("value")+FROM+"1minute"."custom_fax_sent_faxSentOrderFailures"+WHERE+time+>+now()+-+15m+GROUP+BY+time(1m),+"type"+fill(null) HTTP/1.1`
 
+### Sept 3, 2021
+Added a line to separate stdin and stout
+
+Added a line to remove + character and replace with a space (for easy reading)
+
