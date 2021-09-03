@@ -17,3 +17,5 @@ Added a line to separate stdin and stout
 
 Added a line to remove + character and replace with a space (for easy reading)
 
+Added a bin directory for compiled builds for MacOS and amd64
+
