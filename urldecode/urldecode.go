@@ -5,6 +5,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"io/ioutil"
 	"os"
 	"log"
@@ -14,6 +15,7 @@ import (
 func main() {
 	bytes, _ := ioutil.ReadAll(os.Stdin)
 	str := string(bytes)
+	str = strings.ReplaceAll(str, "+", " ")
 	path := (str)
 	unescapedPath, err := url.PathUnescape(path)
 	if err != nil {
