@@ -19,5 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Printf("\n")
 	fmt.Println(unescapedPath)
+	return
 }
