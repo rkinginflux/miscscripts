@@ -4,13 +4,24 @@ clear
 
 echo ":: W E L C O M E  TO  I N S I G H T S ::"
 echo
+echo "Today's date is `date +%F`"
 echo
+
+if [ ! -f /usr/local/bin/tree/ ]; then
+echo "We need the tree command"
+exit 1
+fi
+
+if [ ! -f /usr/local/bin/uuid/ ]; then
+echo "We need the uuid command"
+exit 1
+fi
 
 echo "What is the Company Name?"
 read COMPANY
 
-if [ ! -d /Users/dad7/Desktop/InSights/"$COMPANY"/ ]; then
-mkdir -p /Users/dad7/Desktop/InSights/"$COMPANY"
+if [ ! -d ~/Documents/Influx-InSights/"$COMPANY"/ ]; then
+mkdir -p ~/Documents/Influx-InSights/"$COMPANY"
 fi
 
 echo
@@ -20,17 +31,18 @@ read CASE
 
 echo
 
-echo "What is the UUID?"
-read UUID
+echo "Creating the cluster_id"
+UUID=$(/usr/local/bin/uuid) > /dev/null
+echo "The cluster_id is ${UUID}"
 
 echo
 
 echo "What is the WRITE ONLY Token for telegraf?"
 read TOKEN
 
-mkdir -p /Users/dad7/Desktop/InSights/"$COMPANY"/data/
+mkdir -p ~/Documents/Influx-InSights/"$COMPANY"/data/
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/data/telegraf-data.conf
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/data/telegraf-data.conf
 #NOTE -- These files are provided with specific settings, tag key value pairs, and configuration that should not be changed.
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
@@ -139,8 +151,8 @@ cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/data/telegraf-data.conf
 #  bucket = "telegraf"
 EOF
 
-mkdir -p /Users/dad7/Desktop/InSights/"$COMPANY"/meta/
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/meta/telegraf-meta.conf
+mkdir -p ~/Documents/Influx-InSights/"$COMPANY"/meta/
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/meta/telegraf-meta.conf
 #NOTE -- These files are provided with specific settings, tag key value pairs, and configuration that should not be changed.
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
@@ -220,8 +232,8 @@ cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/meta/telegraf-meta.conf
 [[inputs.internal]]
 EOF
 
-mkdir -p /Users/dad7/Desktop/InSights/"$COMPANY"/kapa/
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/kapa/telegraf-kapa.conf
+mkdir -p ~/Documents/Influx-InSights/"$COMPANY"/kapa/
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/kapa/telegraf-kapa.conf
 #NOTE -- These files are provided with specific settings, tag key value pairs, and configuration that should not be changed.
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
@@ -313,10 +325,10 @@ cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/kapa/telegraf-kapa.conf
 EOF
 
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/INSTRUCTIONS_FOR_CUSTOMERS.txt
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/INSTRUCTIONS_FOR_CUSTOMERS.txt
 Hello "$COMPANY",
 
-Attached are the telegraf files for your data, meta, & kapa nodes. See $COMPANY_Insights.zip, password for the zip file is $CASE.
+Attached are the telegraf files for your data, meta, & kapa nodes. See "${COMPANY}_Insights.zip", password for the zip file is $CASE.
 
 Note the data node(s) will use the telegraf-data.conf file, the meta node(s) will use the telegraf-meta.conf file, and kapacitor node will use the telegraf-kapa.conf file.
 
@@ -329,7 +341,7 @@ EOF
 
 #README for DATA NODE
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/data/README.txt
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/data/README.txt
 1. Place the telegraf-insights.service file into the /etc/systemd/system directory, and enable
 
 systemctl enable telegraf-insights.service
@@ -343,7 +355,7 @@ EOF
 
 #README for META NODE
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/meta/README.txt
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/meta/README.txt
 1. Place the telegraf-insights.service file into the /etc/systemd/system directory, and enable
 
 systemctl enable telegraf-insights.service
@@ -357,7 +369,7 @@ EOF
 
 #README for KAPA NODE
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/kapa/README.txt
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/kapa/README.txt
 1. Place the telegraf-insights.service file into the /etc/systemd/system directory, and enable
 
 systemctl enable telegraf-insights.service
@@ -369,7 +381,7 @@ EOF
 
 #SYSTEMD FILE for DATA
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/data/telegraf-insights.service
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/data/telegraf-insights.service
 [Unit]
 Description=Insight Telegraf standalone for monitoring of clusters by InfluxData
 Documentation=https://github.com/influxdata/telegraf
@@ -389,7 +401,7 @@ EOF
 
 #SYSTEMD FILE for META
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/meta/telegraf-insights.service
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/meta/telegraf-insights.service
 [Unit]
 Description=Insight Telegraf standalone for monitoring of clusters by InfluxData
 Documentation=https://github.com/influxdata/telegraf
@@ -409,7 +421,7 @@ EOF
 
 #SYSTEMD FILE for KAPA
 
-cat <<EOF > /Users/dad7/Desktop/InSights/"$COMPANY"/kapa/telegraf-insights.service
+cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/kapa/telegraf-insights.service
 [Unit]
 Description=Insight Telegraf standalone for monitoring of clusters by InfluxData
 Documentation=https://github.com/influxdata/telegraf
@@ -432,7 +444,13 @@ echo
 echo "Add the following to the bottom of the clusters file! https://github.com/influxdata/influxdb_insights/blob/master/c2_admin/clusters.csv"
 echo
 echo "\"${COMPANY}\",\"${UUID}\",inactive,\"${CASE}\""
-
+echo
+tree ~/Documents/Influx-InSights/${COMPANY}/
 
 echo
 echo
+
+echo "Double check the cluster_id AND token against the *.conf files"
+echo
+find /Users/dad7/Documents/Influx-InSights/"${COMPANY}"/ -name "*.conf" | xargs grep cluster_id
+find /Users/dad7/Documents/Influx-InSights/"${COMPANY}"/ -name "*.conf" | xargs grep token | grep -v \#
