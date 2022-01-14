@@ -47,6 +47,7 @@ cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/data/telegraf-data.conf
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
 # Please contact InfluxData to coordinate any changes that may be needed for your use case as part of our Influx Insight offering.
+# Created on: `date +%F`
 
 [global_tags]
   cluster_id = "$UUID"
@@ -157,6 +158,7 @@ cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/meta/telegraf-meta.conf
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
 # Please contact InfluxData to coordinate any changes that may be needed for your use case as part of our Influx Insight offering.
+# Created on: `date +%F`
 
 [global_tags]
   cluster_id = "$UUID"
@@ -238,6 +240,7 @@ cat <<EOF > ~/Documents/Influx-InSights/"$COMPANY"/kapa/telegraf-kapa.conf
 # Changing these configuration files from how they were provided may cause additional deliverables such as metrics, analysis or alerting, to fail
 # even though data may be written to the Influx DB API.
 # Please contact InfluxData to coordinate any changes that may be needed for your use case as part of our Influx Insight offering.
+# Created on: `date +%F`
 
 [global_tags]
   cluster_id = "$UUID"
@@ -445,12 +448,11 @@ echo "Add the following to the bottom of the clusters file! https://github.com/i
 echo
 echo "\"${COMPANY}\",\"${UUID}\",inactive,\"${CASE}\""
 echo
-tree ~/Documents/Influx-InSights/${COMPANY}/
+tree ~/Documents/Influx-InSights/"${COMPANY}"/
 
 echo
 echo
 
-echo "Double check the cluster_id AND token against the *.conf files"
+echo "Double checking the cluster_id AND token against the *.conf files"
 echo
-find /Users/dad7/Documents/Influx-InSights/"${COMPANY}"/ -name "*.conf" | xargs grep cluster_id
-find /Users/dad7/Documents/Influx-InSights/"${COMPANY}"/ -name "*.conf" | xargs grep token | grep -v \#
+find ~/Documents/Influx-InSights/"${COMPANY}"/ -name '*.conf' -print | xargs -t -I {} egrep 'cluster_id|token' {} | grep -v \#
