@@ -7,6 +7,12 @@ echo
 echo "Today's date is `date +%F`"
 echo
 
+UNAME=`uname` > /dev/null
+if [ $UNAME != "Darwin" ]; then
+echo "Sorry, this script is meant for MacOS."
+exit 1
+fi
+
 if [ ! -f /usr/local/bin/tree/ ]; then
 echo "We need the tree command"
 exit 1
