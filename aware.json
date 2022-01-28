@@ -1,0 +1,4071 @@
+{
+ "meta": {
+  "version": "1",
+  "type": "dashboard",
+  "name": "InfluxDB Aware -- customer template-Template",
+  "description": "template created from dashboard: InfluxDB Aware -- customer template"
+ },
+ "content": {
+  "data": {
+   "type": "dashboard",
+   "attributes": {
+    "name": "InfluxDB Aware -- customer template",
+    "description": "A dashboard for monitoring your InfluxDB 1.x Enterprise instances."
+   },
+   "relationships": {
+    "label": {
+     "data": [
+      {
+       "type": "label",
+       "id": "07835b3862ccd000"
+      }
+     ]
+    },
+    "cell": {
+     "data": [
+      {
+       "type": "cell",
+       "id": "08552bf2e2e74000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2e4970000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2e624f000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2e74da000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2e8995000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2ea745000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2ec39e000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2ede74000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2efb06000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2f18fd000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2f324f000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2f539e000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2f7461000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2f9595000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2fcd70000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf2ff35b000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf300f45000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf302706000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf304cda000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf306f5b000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf30a96b000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf30d56b000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf311652000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf3151d2001"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf3175d2000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf31a301000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf31da52000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf3209e8001"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf3231e8000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf326a55000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf32a6fb001"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf32dafb000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf3300f6000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf332cf6000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf335655000"
+      },
+      {
+       "type": "cell",
+       "id": "08552bf338225000"
+      }
+     ]
+    },
+    "variable": {
+     "data": [
+      {
+       "type": "variable",
+       "id": "07835dda06d58000"
+      }
+     ]
+    }
+   }
+  },
+  "included": [
+   {
+    "type": "label",
+    "id": "07835b3862ccd000",
+    "attributes": {
+     "name": "enterprise",
+     "properties": {
+      "color": "#00a3ff",
+      "description": ""
+     }
+    }
+   },
+   {
+    "id": "08552bf2e2e74000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2e2e74000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2e4970000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 8,
+     "w": 5,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2e4970000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2e624f000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 29,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2e624f000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2e74da000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 2,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2e74da000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2e8995000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 38,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2e8995000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2ea745000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 14,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2ea745000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2ec39e000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 26,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2ec39e000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2ede74000",
+    "type": "cell",
+    "attributes": {
+     "x": 2,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2ede74000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2efb06000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 29,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2efb06000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2f18fd000",
+    "type": "cell",
+    "attributes": {
+     "x": 10,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2f18fd000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2f324f000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 20,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2f324f000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2f539e000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 23,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2f539e000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2f7461000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 32,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2f7461000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2f9595000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 38,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2f9595000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2fcd70000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 32,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2fcd70000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf2ff35b000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 2,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf2ff35b000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf300f45000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 11,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf300f45000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf302706000",
+    "type": "cell",
+    "attributes": {
+     "x": 8,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf302706000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf304cda000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 41,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf304cda000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf306f5b000",
+    "type": "cell",
+    "attributes": {
+     "x": 4,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf306f5b000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf30a96b000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 26,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf30a96b000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf30d56b000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 17,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf30d56b000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf311652000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 41,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf311652000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf3151d2001",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 1,
+     "w": 2,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf3151d2001"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf3175d2000",
+    "type": "cell",
+    "attributes": {
+     "x": 10,
+     "y": 8,
+     "w": 2,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf3175d2000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf31a301000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 35,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf31a301000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf31da52000",
+    "type": "cell",
+    "attributes": {
+     "x": 5,
+     "y": 8,
+     "w": 5,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf31da52000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf3209e8001",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 20,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf3209e8001"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf3231e8000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 17,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf3231e8000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf326a55000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 0,
+     "w": 3,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf326a55000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf32a6fb001",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 5,
+     "w": 12,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf32a6fb001"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf32dafb000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 35,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf32dafb000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf3300f6000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 23,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf3300f6000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf332cf6000",
+    "type": "cell",
+    "attributes": {
+     "x": 6,
+     "y": 11,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf332cf6000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf335655000",
+    "type": "cell",
+    "attributes": {
+     "x": 0,
+     "y": 14,
+     "w": 6,
+     "h": 3
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf335655000"
+      }
+     }
+    }
+   },
+   {
+    "id": "08552bf338225000",
+    "type": "cell",
+    "attributes": {
+     "x": 3,
+     "y": 0,
+     "w": 9,
+     "h": 1
+    },
+    "relationships": {
+     "view": {
+      "data": {
+       "type": "view",
+       "id": "08552bf338225000"
+      }
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2e2e74000",
+    "attributes": {
+     "name": "# of Data Nodes",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> last()\n  |> group()\n  |> count()",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": "",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2e4970000",
+    "attributes": {
+     "name": "Hinted HandOff Queue Size",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_hh_processor\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queueBytes\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "89010612-cb84-4699-b1e0-179d414394e1",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "d8786ad8-fc4e-4dec-80b4-fb80d7ca85f7",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "8017eabf-bfce-46e6-846b-feb7bdd7424b",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2e624f000",
+    "attributes": {
+     "name": "iostat ala telegraf (data)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"diskio\")\n  |> filter(fn: (r) => r[\"_field\"] == \"io_time\")\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1ms, nonNegative: true)\n  |> group(columns: [\"time\", \"host\"], mode:\"by\")\n//   |> sum()\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> map(fn: (r) => ({ r with _value: r._value * 100.0 }))\n  |> keep(columns: [\"_time\", \"_value\", \"host\"])\n",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2e74da000",
+    "attributes": {
+     "name": "CPU Utilization",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"cpu\")\n  |> filter(fn: (r) => r[\"_field\"] == \"usage_user\")\n  |> filter(fn: (r) => r[\"cpu\"] == \"cpu-total\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> keep(columns: [\"_time\", \"_value\", \"host\"])",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [
+         "0",
+         "100"
+        ],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "0d674260-448e-4ab4-859e-46a108004523",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "57457c5f-bc1b-4f58-a343-821ff5a71f34",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "b9118992-3bf4-4b72-bb41-032dffcb2cee",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2e8995000",
+    "attributes": {
+     "name": "CQs OK",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_cq\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryOk\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "2f2df749-8bad-4a84-bdb2-c437c3e95cb3",
+        "type": "scale",
+        "hex": "#FDC44F",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "d9b8be8a-e24d-4990-8676-0165307b0f42",
+        "type": "scale",
+        "hex": "#007C76",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "8137ab5d-553d-454d-b00a-2b24e744557e",
+        "type": "scale",
+        "hex": "#8983FF",
+        "name": "Cthulhu",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2ea745000",
+    "attributes": {
+     "name": "Shard Write Errors",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_shard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"writePointsErr\")\n  |> filter(fn: (r) => r[\"database\"] == \"_internal\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "89010612-cb84-4699-b1e0-179d414394e1",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "d8786ad8-fc4e-4dec-80b4-fb80d7ca85f7",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "8017eabf-bfce-46e6-846b-feb7bdd7424b",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2ec39e000",
+    "attributes": {
+     "name": "IOPs",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"diskio\")\n  |> filter(fn: (r) => r[\"_field\"] == \"reads\" or r[\"_field\"] == \"writes\")\n  |> derivative(unit: 1s, nonNegative: true)\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> yield(name: \"nonnegative derivative\")",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2ede74000",
+    "attributes": {
+     "name": "Memory per Data Node",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\" or r[\"_measurement\"] == \"mem\")\n  |> filter(fn: (r) => r[\"_field\"] == \"total\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> filter(fn: (r) => r.node == \"data\")\n  |> last()\n  |> group()\n  |> max()\n  |> map(fn: (r) => ({ r with _value: r._value / 1073741824 }))",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": " GB",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2efb06000",
+    "attributes": {
+     "name": "iostat ala telegraf (Metas)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"diskio\")\n  |> filter(fn: (r) => r[\"_field\"] == \"io_time\")\n  |> filter(fn: (r) => r[\"node\"] == \"meta\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)\n  |> map(fn: (r) => ({ r with _value: r._value * 1000.0 }))",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2f18fd000",
+    "attributes": {
+     "name": "vCPU / Node",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> last()\n  |> group()\n  |> max()",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": "",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2f324f000",
+    "attributes": {
+     "name": "Heap Size",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_runtime\")\n  |> filter(fn: (r) => r[\"_field\"] == \"HeapInUse\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#FDC44F",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#007C76",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#8983FF",
+        "name": "Cthulhu",
+        "value": 0
+       }
+      ],
+      "note": "---\n\n##### No Results?\nBe sure to select the correct bucket and InfluxDB host using the variables at the top of the dashboard.\n\n_This cell requires data collected by the [Telegraf `influxdb` input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/influxdb)._",
+      "showNoteWhenEmpty": true,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "",
+      "timeFormat": "",
+      "hoverDimension": "",
+      "legendColorizeRows": false,
+      "legendHide": false,
+      "legendOpacity": 0,
+      "legendOrientationThreshold": 0
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2f539e000",
+    "attributes": {
+     "name": "Root Directory Used %",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"disk\")\n  |> filter(fn: (r) => r[\"_field\"] == \"used_percent\")\n  |> filter(fn: (r) => r[\"path\"] == \"/\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [
+         "0",
+         "100"
+        ],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "66c46dc9-acf2-451f-bde5-3cbe0c1fa7b8",
+        "type": "scale",
+        "hex": "#DA6FF1",
+        "name": "Ectoplasm",
+        "value": 0
+       },
+       {
+        "id": "56d6ae94-945f-47cb-83ee-6213fbcab0c3",
+        "type": "scale",
+        "hex": "#00717A",
+        "name": "Ectoplasm",
+        "value": 0
+       },
+       {
+        "id": "cbc5bd6f-1d21-42f9-8e3e-852c0bdecb62",
+        "type": "scale",
+        "hex": "#ACFF76",
+        "name": "Ectoplasm",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2f7461000",
+    "attributes": {
+     "name": "Disk throughput | (Reads + Writes)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "import \"influxdata/influxdb/schema\"\n\nfrom(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"diskio\")\n  |> filter(fn: (r) => r[\"_field\"] == \"write_bytes\" or r[\"_field\"] == \"read_bytes\")\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> filter(fn: (r) => r[\"name\"] != \"loop0\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> schema.fieldsAsCols()\n  |> map(fn: (r) => ({ r with _value: r.read_bytes + r.write_bytes }))\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2f9595000",
+    "attributes": {
+     "name": "Disk Storage (Total & Used per Data Node)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"disk\")\n  |> filter(fn: (r) => r[\"_field\"] == \"total\" or r[\"_field\"] == \"used\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "b3667260-c719-46f7-9722-ac281ec90a76",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "3b04c616-241e-4af5-baf1-4d0e2d72788f",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "bcefd129-865d-4021-bdf0-06cb0143f787",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2fcd70000",
+    "attributes": {
+     "name": "HTTP Requests/Sec (InfluxQL + Flux)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_httpd\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryReq\" or r[\"_field\"] == \"fluxQueryReq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> keep(columns: [\"_time\", \"host\", \"_field\", \"_value\"])\n",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf2ff35b000",
+    "attributes": {
+     "name": "Memory Usage %",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"mem\")\n  |> filter(fn: (r) => r[\"_field\"] == \"used_percent\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)\n  |> keep(columns: [\"_time\", \"_value\", \"host\"])",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [
+         "0",
+         "100"
+        ],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "9853b7ce-07ba-487a-8635-cb20ccf70bec",
+        "type": "scale",
+        "hex": "#74D495",
+        "name": "Atlantis",
+        "value": 0
+       },
+       {
+        "id": "545673ae-fd18-4f9e-ada1-aea723efd8cf",
+        "type": "scale",
+        "hex": "#3F3FBA",
+        "name": "Atlantis",
+        "value": 0
+       },
+       {
+        "id": "edfa83f0-fd1e-48e5-9db4-5c3c18327c45",
+        "type": "scale",
+        "hex": "#FF4D9E",
+        "name": "Atlantis",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf300f45000",
+    "attributes": {
+     "name": "Per-Host Point Throughput/Sec",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_write\")\n  |> filter(fn: (r) => r[\"_field\"] == \"pointReq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "0d674260-448e-4ab4-859e-46a108004523",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "57457c5f-bc1b-4f58-a343-821ff5a71f34",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "b9118992-3bf4-4b72-bb41-032dffcb2cee",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf302706000",
+    "attributes": {
+     "name": "Total Cluster CPU",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> last()\n  |> group()\n  |> sum()",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": "",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf304cda000",
+    "attributes": {
+     "name": "Stuff Coming In",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_write\")\n  |> filter(fn: (r) => r[\"_field\"] == \"pointReq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf306f5b000",
+    "attributes": {
+     "name": "Disk Allocated (Data)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"disk\")\n  |> filter(fn: (r) => r[\"_field\"] == \"total\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> filter(fn: (r) => r[\"mode\"] == \"rw\")\n  |> filter(fn: (r) => r[\"fstype\"] != \"tmpfs\" and r[\"fstype\"] != \"devtmpfs\")\n  |> filter(fn: (r) => r[\"path\"] !~ /boot/)\n  |> last()\n  |> group()\n  |> sum()\n  |> map(fn: (r) => ({ r with _value: r._value / 1073741824 }))",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": " GB",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf30a96b000",
+    "attributes": {
+     "name": "IOPs - Writes Only per minute",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"diskio\")\n  |> filter(fn: (r) => r[\"_field\"] == \"writes\")\n  |> derivative(unit: 1s, nonNegative: true)\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> yield(name: \"nonnegative derivative\")",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf30d56b000",
+    "attributes": {
+     "name": "Queries Executed / Sec",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_queryExecutor\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queriesExecuted\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "2f2df749-8bad-4a84-bdb2-c437c3e95cb3",
+        "type": "scale",
+        "hex": "#FDC44F",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "d9b8be8a-e24d-4990-8676-0165307b0f42",
+        "type": "scale",
+        "hex": "#007C76",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "8137ab5d-553d-454d-b00a-2b24e744557e",
+        "type": "scale",
+        "hex": "#8983FF",
+        "name": "Cthulhu",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf311652000",
+    "attributes": {
+     "name": "CQs Failures",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_cq\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryFail\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "c51449ed-05c0-45b6-a036-85e602a5ed2d",
+        "type": "scale",
+        "hex": "#DA6FF1",
+        "name": "Ectoplasm",
+        "value": 0
+       },
+       {
+        "id": "fafe5658-f5b4-40f4-970f-616155dd92ba",
+        "type": "scale",
+        "hex": "#00717A",
+        "name": "Ectoplasm",
+        "value": 0
+       },
+       {
+        "id": "2447fe6e-e635-4d50-88b0-6a78b73c09c1",
+        "type": "scale",
+        "hex": "#ACFF76",
+        "name": "Ectoplasm",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf3151d2001",
+    "attributes": {
+     "name": "Disk Usage (Data)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"disk\")\n  |> filter(fn: (r) => r[\"_field\"] == \"used\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> filter(fn: (r) => r[\"node\"] == \"data\")\n  |> filter(fn: (r) => r[\"mode\"] == \"rw\")\n  |> filter(fn: (r) => r[\"fstype\"] != \"tmpfs\" and r[\"fstype\"] != \"devtmpfs\")\n  |> filter(fn: (r) => r[\"path\"] !~ /boot/)\n  |> last()\n  |> group()\n  |> sum()\n  |> map(fn: (r) => ({ r with _value: r._value / 1073741824 }))",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": " GB",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf3175d2000",
+    "attributes": {
+     "name": "Shards",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb\")\n  |> filter(fn: (r) => r[\"_field\"] == \"n_shards\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "line-plus-single-stat",
+      "staticLegend": {},
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "prefix": "",
+      "suffix": "",
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 0
+      },
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf31a301000",
+    "attributes": {
+     "name": "HTTP Requests/Sec (Flux)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_httpd\")\n  |> filter(fn: (r) => r[\"_field\"] == \"fluxQueryReq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "d76a47ba-9183-4ed7-b6d2-ed3c76489c11",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "932a5c94-9219-4d66-803a-c02bc9078043",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "e2d8eb53-c4db-431c-91a7-3c1cc1ced4d7",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf31da52000",
+    "attributes": {
+     "name": "Series Cardinality by Database",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_database\")\n  |> filter(fn: (r) => r[\"_field\"] == \"numSeries\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)\n  |> yield(name: \"max\")",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "---\n\n##### No Results?\nBe sure to select the correct bucket and InfluxDB host using the variables at the top of the dashboard.\n\n_This cell requires data collected by the [Telegraf `influxdb` input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/influxdb)._",
+      "showNoteWhenEmpty": true,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "",
+      "timeFormat": "",
+      "hoverDimension": "",
+      "legendColorizeRows": false,
+      "legendHide": false,
+      "legendOpacity": 0,
+      "legendOrientationThreshold": 0
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf3209e8001",
+    "attributes": {
+     "name": "HTTP Request Duration (99th %)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_httpd\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryReq\")\n  |> derivative(unit: 1s, nonNegative: true)\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> yield(name: \"nonnegative derivative\")\n  |> quantile(q: 0.99)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "b3667260-c719-46f7-9722-ac281ec90a76",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "3b04c616-241e-4af5-baf1-4d0e2d72788f",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "bcefd129-865d-4021-bdf0-06cb0143f787",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf3231e8000",
+    "attributes": {
+     "name": "CQs Executed / Min",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_cq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "2f2df749-8bad-4a84-bdb2-c437c3e95cb3",
+        "type": "scale",
+        "hex": "#FDC44F",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "d9b8be8a-e24d-4990-8676-0165307b0f42",
+        "type": "scale",
+        "hex": "#007C76",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "8137ab5d-553d-454d-b00a-2b24e744557e",
+        "type": "scale",
+        "hex": "#8983FF",
+        "name": "Cthulhu",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf326a55000",
+    "attributes": {
+     "name": "Name this Cell",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "markdown",
+      "note": "# InfluxDB Aware"
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf32a6fb001",
+    "attributes": {
+     "name": "System Load (load5)",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"system\")\n  |> filter(fn: (r) => r[\"_field\"] == \"load5\" or r[\"_field\"] == \"n_cpus\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> toFloat()\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)\n  |> keep(columns: [\"_time\", \"_value\", \"host\", \"node\", \"_field\"])",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "5c35ba74-dfd1-4430-a7e2-cad8be03438f",
+        "type": "scale",
+        "hex": "#FDC44F",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "fb65c969-f18a-4777-afb6-507a04d230b1",
+        "type": "scale",
+        "hex": "#007C76",
+        "name": "Cthulhu",
+        "value": 0
+       },
+       {
+        "id": "f5bb4db8-c173-49b5-a03a-7e61c021e0b9",
+        "type": "scale",
+        "hex": "#8983FF",
+        "name": "Cthulhu",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf32dafb000",
+    "attributes": {
+     "name": "Long Query Check",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_queryExecutor\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryDurationNs\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "---\n\n##### No Results?\nBe sure to select the correct bucket and InfluxDB host using the variables at the top of the dashboard.\n\n_This cell requires data collected by the [Telegraf `influxdb` input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/influxdb)._",
+      "showNoteWhenEmpty": true,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "",
+      "timeFormat": "",
+      "hoverDimension": "",
+      "legendColorizeRows": false,
+      "legendHide": false,
+      "legendOpacity": 0,
+      "legendOrientationThreshold": 0
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf3300f6000",
+    "attributes": {
+     "name": "Write Duration",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"internal_write\")\n  |> filter(fn: (r) => r[\"_field\"] == \"write_time_ns\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "---\n\n##### No Results?\nBe sure to select the correct bucket and InfluxDB host using the variables at the top of the dashboard.\n\n_This cell requires data collected by the [Telegraf `influxdb` input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/influxdb)._",
+      "showNoteWhenEmpty": true,
+      "xColumn": "",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "",
+      "timeFormat": "",
+      "hoverDimension": "",
+      "legendColorizeRows": false,
+      "legendHide": false,
+      "legendOpacity": 0,
+      "legendOrientationThreshold": 0
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf332cf6000",
+    "attributes": {
+     "name": "HTTP Requests / Sec",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"influxdb_httpd\")\n  |> filter(fn: (r) => r[\"_field\"] == \"queryReq\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> derivative(unit: 1s, nonNegative: true)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "---\n\n##### No Results?\nBe sure to select the correct bucket and InfluxDB host using the variables at the top of the dashboard.\n\n_This cell requires data collected by the [Telegraf `influxdb` input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/influxdb)._",
+      "showNoteWhenEmpty": true,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": true,
+      "position": "",
+      "timeFormat": "",
+      "hoverDimension": "",
+      "legendColorizeRows": false,
+      "legendHide": false,
+      "legendOpacity": 0,
+      "legendOrientationThreshold": 0
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf335655000",
+    "attributes": {
+     "name": "Disk Utilization %",
+     "properties": {
+      "shape": "chronograf-v2",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"disk\")\n  |> filter(fn: (r) => r[\"_field\"] == \"used_percent\")\n  |> filter(fn: (r) => r.cluster_id == v.cluster_id)\n  |> aggregateWindow(every: v.windowPeriod, fn: max, createEmpty: false)",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "axes": {
+       "x": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       },
+       "y": {
+        "bounds": [],
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "base": "10",
+        "scale": "linear"
+       }
+      },
+      "type": "xy",
+      "staticLegend": {},
+      "geom": "line",
+      "colors": [
+       {
+        "id": "b3667260-c719-46f7-9722-ac281ec90a76",
+        "type": "scale",
+        "hex": "#31C0F6",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "3b04c616-241e-4af5-baf1-4d0e2d72788f",
+        "type": "scale",
+        "hex": "#A500A5",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       },
+       {
+        "id": "bcefd129-865d-4021-bdf0-06cb0143f787",
+        "type": "scale",
+        "hex": "#FF7E27",
+        "name": "Nineteen Eighty Four",
+        "value": 0
+       }
+      ],
+      "note": "",
+      "showNoteWhenEmpty": false,
+      "xColumn": "_time",
+      "generateXAxisTicks": null,
+      "xTotalTicks": 0,
+      "xTickStart": 0,
+      "xTickStep": 0,
+      "yColumn": "_value",
+      "generateYAxisTicks": null,
+      "yTotalTicks": 0,
+      "yTickStart": 0,
+      "yTickStep": 0,
+      "shadeBelow": false,
+      "position": "overlaid",
+      "timeFormat": "",
+      "hoverDimension": "auto",
+      "legendColorizeRows": true,
+      "legendHide": false,
+      "legendOpacity": 1,
+      "legendOrientationThreshold": 100000000
+     }
+    }
+   },
+   {
+    "type": "view",
+    "id": "08552bf338225000",
+    "attributes": {
+     "name": "Cluster ID",
+     "properties": {
+      "shape": "chronograf-v2",
+      "type": "single-stat",
+      "queries": [
+       {
+        "text": "from(bucket: \"telegraf\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"cpu\")\n  |> filter(fn: (r) => r[\"_field\"] == \"usage_user\")\n  |> filter(fn: (r) => r[\"cluster_id\"] == v.cluster_id)\n  |> group()\n  |> limit(n: 1)\n  |> keep(columns: [\"cluster_id\"])\n",
+        "editMode": "advanced",
+        "name": "",
+        "builderConfig": {
+         "buckets": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": [],
+           "aggregateFunctionType": "filter"
+          }
+         ],
+         "functions": [
+          {
+           "name": "mean"
+          }
+         ],
+         "aggregateWindow": {
+          "period": "auto",
+          "fillValues": false
+         }
+        }
+       }
+      ],
+      "prefix": "",
+      "tickPrefix": "",
+      "suffix": "",
+      "tickSuffix": "",
+      "colors": [
+       {
+        "id": "base",
+        "type": "text",
+        "hex": "#00C9FF",
+        "name": "laser",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "isEnforced": true,
+       "digits": 2
+      },
+      "note": "",
+      "showNoteWhenEmpty": false
+     }
+    }
+   },
+   {
+    "id": "07835dda06d58000",
+    "type": "variable",
+    "attributes": {
+     "name": "cluster_id",
+     "arguments": {
+      "type": "query",
+      "values": {
+       "query": "import \"influxdata/influxdb/schema\"\nschema.measurementTagValues(bucket: \"telegraf\", measurement: \"cpu\", tag: \"cluster_id\")",
+       "language": "flux"
+      }
+     },
+     "selected": [
+      "1604eb2e-24dd-11eb-adc1-0242ac120002"
+     ]
+    },
+    "relationships": {
+     "label": {
+      "data": []
+     }
+    }
+   }
+  ]
+ },
+ "labels": []
+}
