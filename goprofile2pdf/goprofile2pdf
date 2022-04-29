@@ -1,0 +1,23 @@
+#!/bin/bash
+# Date April 28, 2022
+# This is for converting profile files to PDFs
+
+for i in allocs.pb block.pb cpu.pb goroutine.pb heap.pb mutex.pb threadcreate.pb; do
+go tool pprof -pdf $i; mv profile001.pdf $i.pdf; sleep 2;
+done
+
+echo
+
+ls -la *.pdf
+
+sleep 5
+
+echo "Now merging all PDFs into one."
+
+echo
+
+cpdf -o case.pdf allocs.pb.pdf block.pb.pdf cpu.pb.pdf goroutine.pb.pdf heap.pb.pdf mutex.pb.pdf threadcreate.pb.pdf
+
+echo
+
+ls -la
