@@ -1,5 +1,6 @@
 #!/bin/bash
 # Date April 28, 2022
+# Author: Rick King
 # This is for converting profile files to PDFs
 
 for i in allocs.pb block.pb cpu.pb goroutine.pb heap.pb mutex.pb threadcreate.pb; do
