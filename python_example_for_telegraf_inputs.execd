@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import time
+
+counter = 0
+
+while True:
+  print("counter_python count=" + str(counter))
+  sys.stdout.flush()
+
+  counter += 1
+  time.sleep(1)
